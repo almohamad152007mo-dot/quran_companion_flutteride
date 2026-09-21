@@ -272,7 +272,7 @@ class QuickAction extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SoftCard(color: color, child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[Icon(icon, size: 28), const SizedBox(height: 16), Text(title, style: const TextStyle(fontWeight: FontWeight.w800))]);
+    return SoftCard(color: color, child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[Icon(icon, size: 28), const SizedBox(height: 16), Text(title, style: const TextStyle(fontWeight: FontWeight.w800))]));
   }
 }
 
